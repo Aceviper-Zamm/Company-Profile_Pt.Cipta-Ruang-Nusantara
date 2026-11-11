@@ -1,0 +1,83 @@
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  darkMode: "class",
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        surface: "#111317",
+        "surface-dim": "#111317",
+        "surface-bright": "#37393e",
+        "surface-container-lowest": "#0c0e12",
+        "surface-container-low": "#1a1c20",
+        "surface-container": "#1e2024",
+        "surface-container-high": "#282a2e",
+        "surface-container-highest": "#333539",
+        "surface-variant": "#333539",
+        "on-surface": "#e2e2e8",
+        "on-surface-variant": "#dbc1b4",
+        "inverse-surface": "#e2e2e8",
+        "inverse-on-surface": "#2f3035",
+        outline: "#a38c80",
+        "outline-variant": "#554339",
+        primary: "#ffb68c",
+        "primary-container": "#d97736",
+        "on-primary": "#532200",
+        "on-primary-container": "#491d00",
+        secondary: "#ffb4ac",
+        "secondary-container": "#882421",
+        "on-secondary": "#65080b",
+        tertiary: "#e0c298",
+        "tertiary-container": "#a88d67",
+        background: "#111317",
+        "on-background": "#e2e2e8",
+      },
+      borderRadius: {
+        DEFAULT: "0.125rem",
+        md: "0.25rem",
+        lg: "0.375rem",
+        xl: "0.5rem",
+        full: "9999px",
+      },
+      spacing: {
+        gutter: "1.5rem",
+        "gutter-desktop": "2.5rem",
+        margin: "1.25rem",
+        "margin-tablet": "2.5rem",
+        "margin-desktop": "5rem",
+        "space-xs": "0.25rem",
+        "space-sm": "0.5rem",
+        "space-md": "1rem",
+        "space-lg": "1.75rem",
+        "space-xl": "3rem",
+      },
+      fontFamily: {
+        display: ["var(--font-space-grotesk)", "Space Grotesk", "sans-serif"],
+        headline: ["var(--font-space-grotesk)", "Space Grotesk", "sans-serif"],
+        body: ["var(--font-metrophobic)", "Metrophobic", "Poppins", "sans-serif"],
+        mono: ["monospace"],
+      },
+      fontSize: {
+        "display": ["4rem", { lineHeight: "4.5rem", letterSpacing: "-0.03em" }],
+        "display-mobile": ["2.5rem", { lineHeight: "2.875rem", letterSpacing: "-0.02em" }],
+        "headline-lg": ["2.75rem", { lineHeight: "3.25rem", letterSpacing: "-0.02em" }],
+        "headline-md": ["1.75rem", { lineHeight: "2.25rem", letterSpacing: "-0.015em" }],
+        "headline-sm": ["1.25rem", { lineHeight: "1.75rem", letterSpacing: "0em" }],
+        "body-lg": ["1.125rem", { lineHeight: "1.75rem", letterSpacing: "0.01em" }],
+        "body-md": ["0.9375rem", { lineHeight: "1.5rem", letterSpacing: "0.01em" }],
+        "body-sm": ["0.8125rem", { lineHeight: "1.25rem", letterSpacing: "0.015em" }],
+        "label-md": ["0.75rem", { lineHeight: "1rem", letterSpacing: "0.08em" }],
+        "label-sm": ["0.6875rem", { lineHeight: "0.875rem", letterSpacing: "0.1em" }],
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;
+

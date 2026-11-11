@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>PT Cipta Ruang Nusantara — Arsitektur &amp; Konstruksi</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Metrophobic&amp;family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&amp;family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-tertiary-container":"#392709","surface-bright":"#37393e","surface-container-lowest":"#0c0e12","primary":"#ffb68c","primary-container":"#d97736","surface-variant":"#333539","error":"#ffb4ab","on-background":"#e2e2e8","error-container":"#93000a","tertiary-fixed-dim":"#e0c298","on-primary":"#532200","on-tertiary-fixed-variant":"#584323","on-tertiary":"#402d0f","tertiary-fixed":"#fedeb2","inverse-surface":"#e2e2e8","surface-container-low":"#1a1c20","primary-fixed":"#ffdbc9","surface-container-highest":"#333539","inverse-on-surface":"#2f3035","outline-variant":"#554339","inverse-primary":"#994703","background":"#111317","on-secondary-fixed-variant":"#85221f","secondary":"#ffb4ac","on-primary-container":"#491d00","primary-fixed-dim":"#ffb68c","secondary-fixed-dim":"#ffb4ac","on-primary-fixed":"#321200","on-secondary-fixed":"#410003","tertiary":"#e0c298","on-secondary":"#65080b","outline":"#a38c80","tertiary-container":"#a88d67","surface-dim":"#111317","on-secondary-container":"#ff9f95","surface-container-high":"#282a2e","secondary-fixed":"#ffdad6","surface-container":"#1e2024","on-tertiary-fixed":"#281800","secondary-container":"#882421","on-primary-fixed-variant":"#753400","surface":"#111317","on-surface":"#e2e2e8","on-surface-variant":"#dbc1b4","on-error-container":"#ffdad6","surface-tint":"#ffb68c","on-error":"#690005"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"gutter":"1.5rem","margin":"1.25rem","space-lg":"1.75rem","margin-desktop":"5rem","space-xs":"0.25rem","space-xl":"3rem","margin-tablet":"2.5rem","space-sm":"0.5rem","gutter-desktop":"2.5rem","space-md":"1rem"},fontFamily:{"body-sm":["Metrophobic"],"headline-sm":["Space Grotesk"],"headline-md":["Space Grotesk"],"label-md":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"],"body-lg":["Metrophobic"],"display":["Space Grotesk"],"label-sm":["Space Grotesk"],"headline-lg":["Space Grotesk"],"body-md":["Metrophobic"],"display-mobile":["Space Grotesk"]},fontSize:{"body-sm":["0.8125rem",{"lineHeight":"1.25rem","letterSpacing":"0.015em","fontWeight":"400"}],"headline-sm":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"0em","fontWeight":"500"}],"headline-md":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.015em","fontWeight":"500"}],"label-md":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.08em","fontWeight":"600"}],"headline-lg-mobile":["2rem",{"lineHeight":"2.375rem","letterSpacing":"-0.01em","fontWeight":"400"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","letterSpacing":"0.01em","fontWeight":"400"}],"display":["4rem",{"lineHeight":"4.5rem","letterSpacing":"-0.03em","fontWeight":"400"}],"label-sm":["0.6875rem",{"lineHeight":"0.875rem","letterSpacing":"0.1em","fontWeight":"500"}],"headline-lg":["2.75rem",{"lineHeight":"3.25rem","letterSpacing":"-0.02em","fontWeight":"400"}],"body-md":["0.9375rem",{"lineHeight":"1.5rem","letterSpacing":"0.01em","fontWeight":"400"}],"display-mobile":["2.5rem",{"lineHeight":"2.875rem","letterSpacing":"-0.02em","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 w-full px-margin md:px-margin-tablet xl:px-margin-desktop flex items-center justify-between"><a class="flex flex-col group" data-path="beranda" href="#"><span class="font-headline-sm text-headline-sm font-medium tracking-widest text-on-surface uppercase">CIPTA RUANG</span><span class="font-label-sm text-label-sm tracking-[0.2em] text-on-surface-variant uppercase">ARSITEKTUR &amp; KONSTRUKSI</span></a><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-medium"><a aria-current="page" class="uppercase tracking-[0.14em] transition-colors text-primary font-medium" data-path="beranda" href="#">Beranda</a><a class="font-label-md text-label-md uppercase tracking-[0.14em] text-on-surface-variant hover:text-on-surface transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a><a class="font-label-md text-label-md uppercase tracking-[0.14em] text-on-surface-variant hover:text-on-surface transition-colors" data-path="layanan" href="#">Layanan</a><a class="font-label-md text-label-md uppercase tracking-[0.14em] text-on-surface-variant hover:text-on-surface transition-colors" data-path="berita" href="#">Berita</a><a class="font-label-md text-label-md uppercase tracking-[0.14em] text-on-surface-variant hover:text-on-surface transition-colors" data-path="kontak" href="#">Kontak</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-xs font-label-md text-label-md uppercase tracking-[0.12em] bg-transparent text-on-surface hover:bg-surface-variant hover:text-on-surface rounded-DEFAULT transition-colors" data-path="masuk" href="#">Masuk</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full font-['Poppins']">
+<!-- ======================== HERO SECTION ======================== -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest">
+<!-- Visual Backdrop with architectural twilight capture -->
+<div class="relative w-full h-[921px] min-h-[640px] max-h-[960px] flex items-end">
+<div class="absolute inset-0 bg-cover bg-center w-full h-full opacity-65" data-alt="Monolithic modern tropical luxury villa cantilever design in Indonesia during deep twilight. Dark honed basalt stone, linear teak louvers, warm 2700K recessed lighting spilling across polished dark concrete terraces, reflecting pool with dark volcanic slate, quiet atmospheric mist and jungle foliage." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBOqkUoWGOPJQZOdSrU13OKD88Onp_ytOVx7YcEDWNmddHFymCxfjrg2uHu0mGFFDBnDjMkl3T-sFfuky91767yn5i5UaDQWghgXCsbUfqyVY8qVtc6979LQw8XtTtbjfpjPFmR9KoW18UUCdDZkdMH49LQD6Z8uEw1aLeF63q4a9L4PIEsWd9awdc1lkQVaM5IymJpQiKR03wk8xbcTzrcGdRnYdd41Z5uE6SMsF0')">
+</div>
+<!-- Subtle layered gradient scrims -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/60 to-surface/30"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface/80 via-transparent to-surface/40"></div>
+<!-- Hero Content Framing -->
+<div class="relative z-10 w-full px-margin md:px-margin-tablet xl:px-margin-desktop pb-space-xl flex flex-col justify-end">
+<div class="max-w-4xl flex flex-col gap-space-md">
+<!-- Monographic Overline -->
+<div class="inline-flex items-center gap-space-sm">
+<span class="w-8 h-[1px] bg-primary"></span>
+<span class="font-label-md text-label-md uppercase tracking-[0.22em] text-primary">Atelier Rancang &amp; Konstruksi Presisi</span>
+</div>
+<!-- Master Headline -->
+<h1 class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight leading-[1.12]">
+            Mewujudkan Ruang Hidup yang Fungsional, Estetis, &amp; Bernilai Tinggi
+          </h1>
+<!-- Architectural Narrative Subhead -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Studio arsitektur terpadu berstandar presisi tinggi di Indonesia. Memadukan kepekaan materialitas tropis, kalkulasi struktur komprehensif, dan kurasi spasial berkelanjutan.
+          </p>
+<!-- Dual CTA Action Pair -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-space-sm px-space-lg py-space-md bg-primary-container hover:bg-primary-container/90 text-on-primary font-label-md text-label-md font-semibold tracking-[0.12em] uppercase rounded-DEFAULT transition-all" href="#kontak">
+<span>Konsultasi Proyek</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-sm px-space-lg py-space-md bg-transparent hover:bg-surface-variant text-on-surface font-label-md text-label-md uppercase tracking-[0.12em] rounded-DEFAULT transition-all shadow-[0_0_0_1px_rgba(255,255,255,0.18)]" href="#layanan">
+<span>Lihat Portofolio Karya</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Credential Ticker Bar -->
+<div class="w-full bg-surface-container-low">
+<div class="px-margin md:px-margin-tablet xl:px-margin-desktop py-space-lg grid grid-cols-1 sm:grid-cols-3 gap-space-lg">
+<div class="flex items-center gap-space-md">
+<span class="font-headline-md text-headline-md font-semibold text-primary">120+</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Proyek Selesai</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Residensial, komersial, &amp; masterplan</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-headline-md text-headline-md font-semibold text-primary">12</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Tahun Dedikasi</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Integritas spasial kepulauan Nusantara</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-headline-md text-headline-md font-semibold text-primary">98%</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Kepuasan Klien</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Akurasi anggaran tanpa deviasi</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ======================== 01 // ABOUT SECTION ======================== -->
+<section class="w-full py-space-xl bg-surface" id="tentang-kami">
+<div class="w-full px-margin md:px-margin-tablet xl:px-margin-desktop flex flex-col gap-space-xl">
+<!-- Section Tag & Editorial Title -->
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-primary tracking-[0.2em] uppercase font-semibold">01 // TENTANG CIPTA RUANG</span>
+<div class="h-[1px] w-12 bg-outline-variant"></div>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">
+          Rancangan Kontekstual, Presisi Struktur, &amp; Sensibilitas Alam
+        </h2>
+</div>
+<!-- Narrative & Atelier Photo Mosaic -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Story text -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Didirikan pada 2012 di Jakarta, PT Cipta Ruang Nusantara berakar pada komitmen filosofis: arsitektur tropis bukan sekadar pelindung cuaca, melainkan dialog harmonis antara proporsi ruang, materialitas lokal, dan kejujuran konstruksi.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Kami menjembatani batas antara laboratorium eksperimen konseptual studio dan disiplin ketat pengawasan lapangan. Melalui integrasi pemodelan parametrik dan kalkulasi struktur mikro presisi, setiap bentang kolom, bukaan kisi kayu ulin, hingga bidang beton ekspos dieksekusi dengan standar toleransi milimeter.
+          </p>
+<!-- Key Structural Principles Accordion / Metrics -->
+<div class="pt-space-sm flex flex-col gap-space-sm">
+<div class="p-space-md bg-surface-container-low rounded-DEFAULT flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface tracking-wider uppercase">Standar Mutu Struktur</span>
+<span class="font-label-md text-label-md text-primary uppercase">SNI 2847 &amp; Eurocode</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-DEFAULT flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface tracking-wider uppercase">Sertifikasi Praktisi</span>
+<span class="font-label-md text-label-md text-primary uppercase">IAI Utama &amp; LPJK Kelas 1</span>
+</div>
+</div>
+</div>
+<!-- Visual Atelier Craft Card -->
+<div class="lg:col-span-6 grid grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-md">
+<div class="w-full h-64 bg-cover bg-center rounded-DEFAULT shadow-md" data-alt="Architects in Jakarta atelier studio collaborating intently over technical blueprint drawings, high precision architectural scale models made of basswood and matte acrylic, warm task lamp lighting, minimalist dark studio environment." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB4Qr1eqOXUSUu4Dy9IxO7UuIu7bnV6Y1AsTEE0QaznLJIRyo9g7e2YR8Y2MVXaHuu-X3BeSY9G5A6qJzq5mWKko5T_MKLsT6AA7KlFWgYrfNeWuQH8VwiEvORL0H57LbHwavm22pUWJa8S0QVxwI8Hwhrf32KDklTOajbjG1MI2nYHW-y2wHiUCG8WSnn3B88h87Q5TOMFj4rJcYUStkyJF8H-jjHw_iWJWzyZWs0')">
+</div>
+<div class="p-space-md bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Studio Jakarta</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Laboratorium materialitas dan studio perancangan masterplan terpadu.</p>
+</div>
+</div>
+<div class="flex flex-col gap-space-md pt-space-lg">
+<div class="p-space-md bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Pengawasan Lapangan</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Forensik teknis dan inspeksi struktur berkala setiap tahap konstruksi.</p>
+</div>
+<div class="w-full h-64 bg-cover bg-center rounded-DEFAULT shadow-md" data-alt="Close up architectural detail of cast-in-place fair-faced concrete with tie-rod holes aligned precisely, warm timber balustrade joints, high end craftsmanship, Indonesian luxury residence under construction." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBYBRE2c1IRBIBGEcYtAhEJfRdeJYdn7I-svGG07R8pOrah5m13qcW4ynFABg4WrT_94d0EOYtlQah7orqbp7eDjZUU4MTioYo6OQEGN8CtaWGioKDX9Nh7ldPS4H_1SP6fNEl6cvwKYaZSssTj1mPtiJZYdWK0dFFCcKy2wnE17beEDBuKgp3QsUwkGDdtpBoPlifo_PotDkSNAbCcyf9HwflAZua-rn99EGdcGxc')">
+</div>
+</div>
+</div>
+</div>
+<!-- 3 Key Architectural Pillars Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Pillar 1 -->
+<div class="p-space-lg bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-md hover:bg-surface-container transition-colors shadow-sm">
+<div class="w-12 h-12 rounded-DEFAULT bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">eco</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold">Keberlanjutan Tropis</span>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface">Desain Berkelanjutan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Optimasi sirkulasi udara silang alami, kanopi peneduh surya terukur, pencahayaan pasif, dan kurasi material rendah karbon lokal ramah ekosistem kepulauan.
+            </p>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="p-space-lg bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-md hover:bg-surface-container transition-colors shadow-sm">
+<div class="w-12 h-12 rounded-DEFAULT bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">architecture</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold">Komputasi Presisi</span>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface">Presisi Teknis BIM 5D &amp; RAB</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Kalkulasi struktur mikro, simulasi detail toleransi hingga 2mm, dan transparansi volume anggaran konstruksi (Bill of Quantities) tanpa deviasi tak terduga.
+            </p>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="p-space-lg bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-md hover:bg-surface-container transition-colors shadow-sm">
+<div class="w-12 h-12 rounded-DEFAULT bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">engineering</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold">End-to-End Build</span>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface">Manajemen Konstruksi Terpadu</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Pengawasan ketat dan manajemen kontraktor berlisensi dari perataan tapak, pengecoran struktur, hingga penataan detail interior serah terima kunci.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ======================== 02 // SERVICES SECTION ======================== -->
+<section class="w-full py-space-xl bg-surface-container-lowest" id="layanan">
+<div class="w-full px-margin md:px-margin-tablet xl:px-margin-desktop flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-primary tracking-[0.2em] uppercase font-semibold">02 // LAYANAN UTAMA</span>
+<div class="h-[1px] w-12 bg-outline-variant"></div>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">
+            Solusi Rancang Bangun Terpadu untuk Segala Skala Kebutuhan
+          </h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">
+          Dari hunian privat eksklusif hingga lanskap komersial berskala makro dengan sertifikasi keahlian legal penuh.
+        </span>
+</div>
+<!-- 6 Service Cards Grid with Rich Visuals, Micro-Badges & Luxurious Hover -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1: Hunian & Villa -->
+<div class="bg-surface-container-low rounded-DEFAULT overflow-hidden flex flex-col group hover:bg-surface-container hover:-translate-y-1 transition-all duration-500 shadow-md border border-transparent hover:border-[#d97736]/40 hover:shadow-[0_12px_32px_rgba(217,119,54,0.12)]">
+<div class="relative w-full h-56 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Ultra modern tropical cliffside villa in Uluwatu Bali with infinity pool, volcanic stone walls, dramatic geometric cantilever roofs, warm lighting in darkness, high end architecture design." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDY2hnLtBrOxGGxtsEFCvpxt5d2jNVeAYlhx6LJ11S3Z4XBQ1AfqsWxpDZ3WGgE3Nrk_wEq6BSIchEdRwHLPRDyP_vVXHuN9SMT9EY3ZFgqz2EBg9y-6zwzjj2Q0i8LbvERpo2Sa4Q3vEuYPLwlP69sDCnDPGVWLRHugtuW351bw9wyOdUdwiBX5lKsXDFwRnriK-pMOFhjGLHd-b18KRpnvLmW50ieBMsph3hly98')">
+</div>
+<!-- Ambient lighting overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-black/30 pointer-events-none"></div>
+<!-- Top status badge & blueprint thumbnail overlay -->
+<div class="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-DEFAULT border border-white/10 text-primary font-label-sm text-[10px] tracking-wider uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#d97736] animate-pulse"></span>
+34+ Hunian Terbangun
+</span>
+<span class="px-2 py-0.5 bg-black/60 backdrop-blur-sm rounded-DEFAULT text-on-surface-variant font-mono text-[9px] tracking-widest border border-white/5 uppercase">
+SEC-01 // ARC
+</span>
+</div>
+</div>
+<!-- Architectural material pills -->
+<div class="px-space-lg pt-space-md flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Batu Basalt</span>
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Kayu Ulin</span>
+<span class="px-2 py-0.5 bg-[#d97736]/15 text-primary text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Cantilever 4.5m</span>
+</div>
+<div class="p-space-lg pt-space-sm flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Spesialisasi 01</span>
+<span class="text-[11px] font-mono text-outline">REV.2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface group-hover:text-primary transition-colors duration-300">Desain Arsitektur Hunian &amp; Villa</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+Hunian privat berkarakter kuat dengan gubahan massa presisi, privasi maksimal, dan ventilasi mikro alami.
+</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between border-t border-outline-variant/30">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Private Residential</span>
+<span class="material-symbols-outlined text-primary text-[20px] transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">north_east</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Komersial & Kantor -->
+<div class="bg-surface-container-low rounded-DEFAULT overflow-hidden flex flex-col group hover:bg-surface-container hover:-translate-y-1 transition-all duration-500 shadow-md border border-transparent hover:border-[#d97736]/40 hover:shadow-[0_12px_32px_rgba(217,119,54,0.12)]">
+<div class="relative w-full h-56 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Modern corporate office headquarters building facade in SCBD Jakarta at dusk. Geometric louvers, double glazed low-E glass curtains, polished steel and dark granite, architectural photography." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCUI6rlCn-VfsVqIZnmceNWW0nbIj3wIHt32yJTkauWy8whuFkc6ONF-4XFF4dh6cd1CEkw4P2PO4yrSSV23qmhyqpzPwtLF6FUlVck8oPoO6Ig_npmrQ8XZtzY4NLn-3dZ08w6A3fVwhRjDfBjjItle_7qv_tuVcaWyK2NwMwUTi-RN9cbWAs-UNSbuQ9yt-I6yKVEqfCSIN2YqWg8vGh7Fd3R-i8nZp_sXdPklpU')">
+</div>
+<!-- Ambient lighting overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-black/30 pointer-events-none"></div>
+<!-- Top status badge -->
+<div class="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-DEFAULT border border-white/10 text-primary font-label-sm text-[10px] tracking-wider uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#d97736] animate-pulse"></span>
+BIM 5D Ready
+</span>
+<span class="px-2 py-0.5 bg-black/60 backdrop-blur-sm rounded-DEFAULT text-on-surface-variant font-mono text-[9px] tracking-widest border border-white/5 uppercase">
+HQ-CORP // 18 FL
+</span>
+</div>
+</div>
+<!-- Architectural material pills -->
+<div class="px-space-lg pt-space-md flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Low-E Facade</span>
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Granit Hitam</span>
+<span class="px-2 py-0.5 bg-[#d97736]/15 text-primary text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Efisiensi Energi 38%</span>
+</div>
+<div class="p-space-lg pt-space-sm flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Spesialisasi 02</span>
+<span class="text-[11px] font-mono text-outline">REV.2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface group-hover:text-primary transition-colors duration-300">Arsitektur Komersial &amp; Kantor</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+Gedung bertingkat tinggi dan hub gaya hidup urban yang efisien dalam operasional serta berdaya saing komersial tinggi.
+</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between border-t border-outline-variant/30">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Commercial &amp; Hub</span>
+<span class="material-symbols-outlined text-primary text-[20px] transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">north_east</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Desain Interior -->
+<div class="bg-surface-container-low rounded-DEFAULT overflow-hidden flex flex-col group hover:bg-surface-container hover:-translate-y-1 transition-all duration-500 shadow-md border border-transparent hover:border-[#d97736]/40 hover:shadow-[0_12px_32px_rgba(217,119,54,0.12)]">
+<div class="relative w-full h-56 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Minimalist luxury interior living room with dark walnut wood paneling, fluted travertine fireplace, low profile Italian leather sofa, sculptural lighting, understated architectural elegance." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCMth640vsizMsyos8oO5qQFHSkhOiMLz3-bW5oyzvANSOJrA5xqCrZBet-M5_dPFbHC5mKhcJLb4JBNhdm6l8kK1woR_j430kXgTCAq7loLJE1d8to6YEPJGNhd4wRZhIfJquBZk9M-k0HP_nE9_4APj7NNbi8Lwe5A449TJH1LI9X5qpdt3QUwfkeADWmXSM_hDmpn1Z4JBgmG2Hr7zZQ5SflnszSgQDzA-tJuvs')">
+</div>
+<!-- Ambient lighting overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-black/30 pointer-events-none"></div>
+<!-- Top status badge -->
+<div class="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-DEFAULT border border-white/10 text-primary font-label-sm text-[10px] tracking-wider uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#d97736] animate-pulse"></span>
+Akustik &amp; Pencahayaan
+</span>
+<span class="px-2 py-0.5 bg-black/60 backdrop-blur-sm rounded-DEFAULT text-on-surface-variant font-mono text-[9px] tracking-widest border border-white/5 uppercase">
+BESPOKE // 2700K
+</span>
+</div>
+</div>
+<!-- Architectural material pills -->
+<div class="px-space-lg pt-space-md flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Travertine Roma</span>
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Walnut Veneer</span>
+<span class="px-2 py-0.5 bg-[#d97736]/15 text-primary text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Smart CCT Control</span>
+</div>
+<div class="p-space-lg pt-space-sm flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Spesialisasi 03</span>
+<span class="text-[11px] font-mono text-outline">REV.2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface group-hover:text-primary transition-colors duration-300">Desain Interior &amp; Tata Ruang</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+Kurasi material taktil, tata cahaya 2700K berlapisan emosional, dan furnitur kustom berpresisi kabinet tinggi.
+</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between border-t border-outline-variant/30">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Interior Architecture</span>
+<span class="material-symbols-outlined text-primary text-[20px] transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">north_east</span>
+</div>
+</div>
+</div>
+<!-- Card 4: Masterplan & Lanskap -->
+<div class="bg-surface-container-low rounded-DEFAULT overflow-hidden flex flex-col group hover:bg-surface-container hover:-translate-y-1 transition-all duration-500 shadow-md border border-transparent hover:border-[#d97736]/40 hover:shadow-[0_12px_32px_rgba(217,119,54,0.12)]">
+<div class="relative w-full h-56 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Biophilic resort masterplan in Indonesia, stepping terraces nestled in tropical green contours, rainwater retention wetlands, natural stone walkways, aerial perspective." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAzaf4DwpRBhtw1wn_rX0MXyFu3-tlwbqObmTMhj1KdnE46wMKg0TMVoFS6tpBXXgLKOFhO5Rx0Pae8ch87I2ReogcDCoT-pPUMgtkxPzqzOKhdzkRFYN4OmQdZeFf0IPxrxRcLTGBfYr7VJjzBSHKRUJO5HQWP2uwDfYAXfhyyBInV8A9gXiz1eJQbn7Qfl0D360qJJ_17LZ84KegmBAtqNQ39HmsHotv4Q5rEUAk')">
+</div>
+<!-- Ambient lighting overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-black/30 pointer-events-none"></div>
+<!-- Top status badge -->
+<div class="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-DEFAULT border border-white/10 text-primary font-label-sm text-[10px] tracking-wider uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#d97736] animate-pulse"></span>
+Sertifikasi Green Ship
+</span>
+<span class="px-2 py-0.5 bg-black/60 backdrop-blur-sm rounded-DEFAULT text-on-surface-variant font-mono text-[9px] tracking-widest border border-white/5 uppercase">
+BIO // 12.4 HA
+</span>
+</div>
+</div>
+<!-- Architectural material pills -->
+<div class="px-space-lg pt-space-md flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Zero Runoff</span>
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Flora Endemik</span>
+<span class="px-2 py-0.5 bg-[#d97736]/15 text-primary text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Kontur Terawat</span>
+</div>
+<div class="p-space-lg pt-space-sm flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Spesialisasi 04</span>
+<span class="text-[11px] font-mono text-outline">REV.2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface group-hover:text-primary transition-colors duration-300">Masterplan &amp; Tata Lanskap</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+Perencanaan kawasan biofilik terintegrasi dengan konservasi topografi kontur alami dan resapan mandiri.
+</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between border-t border-outline-variant/30">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Landscape Masterplan</span>
+<span class="material-symbols-outlined text-primary text-[20px] transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">north_east</span>
+</div>
+</div>
+</div>
+<!-- Card 5: Manajemen Konstruksi -->
+<div class="bg-surface-container-low rounded-DEFAULT overflow-hidden flex flex-col group hover:bg-surface-container hover:-translate-y-1 transition-all duration-500 shadow-md border border-transparent hover:border-[#d97736]/40 hover:shadow-[0_12px_32px_rgba(217,119,54,0.12)]">
+<div class="relative w-full h-56 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Precision construction site in Indonesia, engineers in hard hats checking laser level and tablet BIM 3D models against physical reinforced steel frames, clean organized site." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCpSKKZKisSc_vtanXs3j_6mkkd9L6Kkz-0BOLDlGWGxY1qWxT9kq7-l8Whw5X8J2vStkCiCWuMTeg_srPPhy9JSU5gJ9oCQ2savw-Z__bvLqc9ErYm-aynJNtXDVnKXujWPl90EYg4uE2PNqmyvklreAo9fegOGn_ngrBzBLeCoDiTlN2i9dd8mTPAG1RVp3-d79fkFnppdaqitKSILWYZxJRutwE7EAH2kw6zGPg')">
+</div>
+<!-- Ambient lighting overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-black/30 pointer-events-none"></div>
+<!-- Top status badge -->
+<div class="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-DEFAULT border border-white/10 text-primary font-label-sm text-[10px] tracking-wider uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#d97736] animate-pulse"></span>
+Zero Accident
+</span>
+<span class="px-2 py-0.5 bg-black/60 backdrop-blur-sm rounded-DEFAULT text-on-surface-variant font-mono text-[9px] tracking-widest border border-white/5 uppercase">
+K3 // ISO 45001
+</span>
+</div>
+</div>
+<!-- Architectural material pills -->
+<div class="px-space-lg pt-space-md flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Toleransi 2mm</span>
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">CCTV 24/7 Site</span>
+<span class="px-2 py-0.5 bg-[#d97736]/15 text-primary text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Garansi Retensi 1 Thn</span>
+</div>
+<div class="p-space-lg pt-space-sm flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Spesialisasi 05</span>
+<span class="text-[11px] font-mono text-outline">REV.2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface group-hover:text-primary transition-colors duration-300">Manajemen Konstruksi &amp; Renovasi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+Eksekusi fisik berdisiplin tinggi, kepatuhan K3 tanpa kompromi, dan jaminan deviasi anggaran 0%.
+</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between border-t border-outline-variant/30">
+<span class="font-label-sm text-label-sm text-on-surface-variant">General Contractor</span>
+<span class="material-symbols-outlined text-primary text-[20px] transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">north_east</span>
+</div>
+</div>
+</div>
+<!-- Card 6: Audit Struktur & Perizinan -->
+<div class="bg-surface-container-low rounded-DEFAULT overflow-hidden flex flex-col group hover:bg-surface-container hover:-translate-y-1 transition-all duration-500 shadow-md border border-transparent hover:border-[#d97736]/40 hover:shadow-[0_12px_32px_rgba(217,119,54,0.12)]">
+<div class="relative w-full h-56 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Structural engineering analysis screen and architectural official stamps, blueprints of building framing and foundation core, regulatory compliance documentation in high quality." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAf4Oap1b6NKw28_Dkn_TDqS9xvhXhp2ADXDT063ZTy-oXMVw4N2cbpnzahBGZtlu59FEyuz6_64xnCewsUAyuJ2q-1HIVAlEcUK_lYQ22m0Utdcq-caMbZdH0NZqDG_DySTu4dKOW5bbz_420zPxuS0KjyY4umz9v-p5o_NmLOVwm3WYz-oIEe_J4HApjT6DvhLvZHJiJg02t0xucpmFWhQyOYR2EqImGnNpQTxAg')">
+</div>
+<!-- Ambient lighting overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-black/30 pointer-events-none"></div>
+<!-- Top status badge -->
+<div class="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-DEFAULT border border-white/10 text-primary font-label-sm text-[10px] tracking-wider uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#d97736] animate-pulse"></span>
+SLF 100% Lolos
+</span>
+<span class="px-2 py-0.5 bg-black/60 backdrop-blur-sm rounded-DEFAULT text-on-surface-variant font-mono text-[9px] tracking-widest border border-white/5 uppercase">
+LEGAL // SIMBG
+</span>
+</div>
+</div>
+<!-- Architectural material pills -->
+<div class="px-space-lg pt-space-md flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">NDT Hammer Test</span>
+<span class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">SNI Gempa 1726</span>
+<span class="px-2 py-0.5 bg-[#d97736]/15 text-primary text-[10px] font-label-sm uppercase tracking-wider rounded-DEFAULT">Legalitas PBG/SLF</span>
+</div>
+<div class="p-space-lg pt-space-sm flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Spesialisasi 06</span>
+<span class="text-[11px] font-mono text-outline">REV.2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface group-hover:text-primary transition-colors duration-300">Audit Struktur &amp; Perizinan (PBG / SLF)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+Forensik ketahanan gempa eksisting, uji non-destruktif, dan asistensi sertifikasi laik fungsi resmi.
+</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between border-t border-outline-variant/30">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Legal Compliance</span>
+<span class="material-symbols-outlined text-primary text-[20px] transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">north_east</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ======================== 03 // NEWS & ARTICLES SECTION ======================== -->
+<section class="w-full py-space-xl bg-surface" id="berita">
+<div class="w-full px-margin md:px-margin-tablet xl:px-margin-desktop flex flex-col gap-space-xl">
+<!-- Section Header with Category Chips -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-primary tracking-[0.2em] uppercase font-semibold">03 // KABAR &amp; WAWASAN</span>
+<div class="h-[1px] w-12 bg-outline-variant"></div>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">
+            Diskursus Desain &amp; Berita Proyek Terkini
+          </h2>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="hidden sm:inline-block px-3 py-1 bg-surface-container rounded-DEFAULT font-label-sm text-[11px] text-on-surface-variant uppercase tracking-wider border border-white/5">Volume IX — 2025</span>
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider text-primary hover:text-on-surface transition-colors" href="#kontak">
+<span>Arsip Publikasi Studio</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Articles 3-Column Grid with Enhanced Micro-Badges & Author Profiles -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Article 1 -->
+<article class="bg-surface-container-low rounded-DEFAULT overflow-hidden flex flex-col group hover:bg-surface-container hover:-translate-y-1 transition-all duration-500 shadow-sm border border-transparent hover:border-[#d97736]/30">
+<div class="relative w-full h-60 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Interior lightwell and vertical garden in narrow urban townhouse in Jakarta, slatted timber skylights casting natural light patterns across textured dark stone walls." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBuGUpIly0CQaRzUAnBdLda0gzmP5HiFFMAlzBouUDHNy-yrj0TJCC6yl6G2nuHOEHOe8x9fvmDbyUDX8URUuhjogNsFZBpUx45W5qdz071ME2iB9Vg7pPETT8aXtPcgPALYjPbg2zfUjzqYOi7VmYFQfiIQP-NGJu8JzQjwRbKTegJebBhFyhAQXa7J22nEHeG2H_iaAcNVnV1HWt3b6gKFgDrUt3I7vKclOn2-ec')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent"></div>
+<!-- Category Tag Pill -->
+<div class="absolute top-3 left-3">
+<span class="px-2.5 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-DEFAULT text-primary font-label-sm text-[10px] tracking-wider uppercase font-semibold border border-white/10">
+Riset Termal
+</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+18 FEBRUARI 2025
+</span>
+<span class="flex items-center gap-1 font-mono text-[11px] text-outline">
+<span class="material-symbols-outlined text-[14px]">timer</span> 5 MIN BACA
+</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface group-hover:text-primary transition-colors">
+                Strategi Ventilasi Silang Alami pada Hunian Lahan Sempit Tropis
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Eksplorasi cerobong termal dan inner courtyard vertikal sebagai jawaban atas kenyamanan iklim mikro urban Jakarta.
+              </p>
+</div>
+<!-- Author Atelier Badge & Action -->
+<div class="pt-space-md flex items-center justify-between border-t border-outline-variant/30">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-surface-container-highest border border-primary/40 flex items-center justify-center text-[10px] font-mono text-primary font-bold">
+AN
+</div>
+<div class="flex flex-col">
+<span class="text-[11px] font-medium text-on-surface">Ar. Arya Nugraha</span>
+<span class="text-[9px] text-on-surface-variant uppercase tracking-wider">Prinsipal Desain</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md font-semibold tracking-wider group-hover:translate-x-1 transition-transform">
+<span>BACA</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="bg-surface-container-low rounded-DEFAULT overflow-hidden flex flex-col group hover:bg-surface-container hover:-translate-y-1 transition-all duration-500 shadow-sm border border-transparent hover:border-[#d97736]/30">
+<div class="relative w-full h-60 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Architectural BIM 3D computer model visual rendered in technical wireframe with cost estimation data overlays and structural analysis graph, high tech engineering." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuARj-d89IiZs7xLB4rXiKM9X621kN-w6qR3FIuITB9iI5xq-MUyJQAJW9MkUu8So6V4bFiLSsuv1Thh9s_Y_YcIYhoCY1kMDjRwZlyqj8VnOknKvuwELQjWhvRk2GAoMXQNMTBzFHOKwYTzXEnBHu6kQej3wW_-Xqc2Lz3huU9pwy47gyy9haq5YapG4yL1h52mkWqbAwAA7CDGIewiuTafVIeGL5zk5v9bQs1tLno')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent"></div>
+<!-- Category Tag Pill -->
+<div class="absolute top-3 left-3">
+<span class="px-2.5 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-DEFAULT text-primary font-label-sm text-[10px] tracking-wider uppercase font-semibold border border-white/10">
+Teknologi BIM
+</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+27 JANUARI 2025
+</span>
+<span class="flex items-center gap-1 font-mono text-[11px] text-outline">
+<span class="material-symbols-outlined text-[14px]">timer</span> 8 MIN BACA
+</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface group-hover:text-primary transition-colors">
+                Transparansi Anggaran Konstruksi: Keunggulan Model BIM 5D Terintegrasi
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Menghilangkan risiko variasi biaya tak terduga dengan sinkronisasi langsung antara volume CAD dan jadwal RAB lapangan.
+              </p>
+</div>
+<!-- Author Atelier Badge & Action -->
+<div class="pt-space-md flex items-center justify-between border-t border-outline-variant/30">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-surface-container-highest border border-primary/40 flex items-center justify-center text-[10px] font-mono text-primary font-bold">
+IS
+</div>
+<div class="flex flex-col">
+<span class="text-[11px] font-medium text-on-surface">Ir. Irwan Santoso</span>
+<span class="text-[9px] text-on-surface-variant uppercase tracking-wider">Lead QS &amp; Struktur</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md font-semibold tracking-wider group-hover:translate-x-1 transition-transform">
+<span>BACA</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="bg-surface-container-low rounded-DEFAULT overflow-hidden flex flex-col group hover:bg-surface-container hover:-translate-y-1 transition-all duration-500 shadow-sm border border-transparent hover:border-[#d97736]/30">
+<div class="relative w-full h-60 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Government compliance building document approval, licensed architect stamping certified blueprints on wooden desk with architectural drafting tools." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAczOiZtNgTU5gtp97v9nHo8iiwQnlX1-gQrTpFV9tVjKSWf4o-HFA8oZp_GPt3RdiEoUto-GwL4RzMNc8D497kC2PoC67mmxT1oigb_pmaggbLa9AWAfZDmTg_TrbOm2DEgkYmLQNsuJG3CjQjNuLX7amaEn_yv1RKExAikNbcnn8bFvalklXM0V9YVf_hmnSZBIHucOpi_gfeV8gP4gZcmMM-db7GHVcVPy7p5So')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent"></div>
+<!-- Category Tag Pill -->
+<div class="absolute top-3 left-3">
+<span class="px-2.5 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-DEFAULT text-primary font-label-sm text-[10px] tracking-wider uppercase font-semibold border border-white/10">
+Regulasi &amp; PBG
+</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+12 DESEMBER 2024
+</span>
+<span class="flex items-center gap-1 font-mono text-[11px] text-outline">
+<span class="material-symbols-outlined text-[14px]">timer</span> 6 MIN BACA
+</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface group-hover:text-primary transition-colors">
+                Panduan Praktis Pengurusan PBG &amp; SLF 2025 untuk Gedung Komersial
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Langkah strategis memenuhi kriteria ketahanan seismik terbaru dalam sistem SIMBG tanpa hambatan birokrasi.
+              </p>
+</div>
+<!-- Author Atelier Badge & Action -->
+<div class="pt-space-md flex items-center justify-between border-t border-outline-variant/30">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-surface-container-highest border border-primary/40 flex items-center justify-center text-[10px] font-mono text-primary font-bold">
+DW
+</div>
+<div class="flex flex-col">
+<span class="text-[11px] font-medium text-on-surface">Dian Widyawati</span>
+<span class="text-[9px] text-on-surface-variant uppercase tracking-wider">Direktur Legal</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md font-semibold tracking-wider group-hover:translate-x-1 transition-transform">
+<span>BACA</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!-- Action Button -->
+<div class="w-full flex justify-center pt-space-sm">
+<a class="inline-flex items-center gap-space-sm px-space-lg py-space-md bg-transparent hover:bg-surface-variant text-on-surface font-label-md text-label-md uppercase tracking-[0.14em] rounded-DEFAULT transition-all shadow-[0_0_0_1px_rgba(255,255,255,0.15)] group" href="#kontak">
+<span>Lihat Semua Berita &amp; Wawasan Arsitektur</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_outward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- ======================== 04 // CONTACT & CONSULTATION SECTION ======================== -->
+<section class="w-full py-space-xl bg-surface-container-lowest" id="kontak">
+<div class="w-full px-margin md:px-margin-tablet xl:px-margin-desktop flex flex-col gap-space-xl">
+<!-- Section Tag & Title -->
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-primary tracking-[0.2em] uppercase font-semibold">04 // HUBUNGI KAMI</span>
+<div class="h-[1px] w-12 bg-outline-variant"></div>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">
+          Konsultasikan Mahakarya Arsitektur Bersama Tim Kami
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Diskusikan visi spasial, kelayakan tapak, dan perencanaan biaya dengan para prinsipal arsitek kami secara terarah dan terjamin kerahasiaannya.
+        </p>
+</div>
+<!-- Studio Assurance Micro-Stats Banner -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md p-space-md bg-surface-container-low rounded-DEFAULT border border-white/5">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-DEFAULT bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">bolt</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Respon &lt; 2 Jam</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Layanan prinsipal siaga via WhatsApp</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-DEFAULT bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Konsultasi Awal Bebas Biaya</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Analisis tapak &amp; perkiraan volume awal</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-DEFAULT bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">lock</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Perjanjian NDA Siap Pakai</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Privasi hunian &amp; data komersial terlindungi</span>
+</div>
+</div>
+</div>
+<!-- Dual Column Layout: Form & Map Location -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
+<!-- Left Column: Form & Direct Contacts -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Contact Detail Cards with smooth hover -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="p-space-md bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-xs hover:bg-surface-container border border-transparent hover:border-[#d97736]/30 transition-all duration-300">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Kantor Studio</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">Jl. Kemang Timur No. 42B, Bangka, Mampang Prapatan, Jakarta Selatan 12730</p>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-xs hover:bg-surface-container border border-transparent hover:border-[#d97736]/30 transition-all duration-300">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[20px]">contact_phone</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Komunikasi Langsung</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">WA: +62 811-9234-8800<br/>Telp: +62 21 7890 4321</p>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-xs hover:bg-surface-container border border-transparent hover:border-[#d97736]/30 transition-all duration-300">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Surel Resmi</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">proyek@ciptaruang.id<br/>halo@ciptaruang.id</p>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-xs hover:bg-surface-container border border-transparent hover:border-[#d97736]/30 transition-all duration-300">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Jam Operasional</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">Senin – Sabtu: 08.30 – 17.30 WIB<br/>Konsultasi Akhir Pekan (Perjanjian)</p>
+</div>
+</div>
+<!-- Consultation Inquiry Form with Premium Visual Accents -->
+<form class="p-space-lg bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-md shadow-md border border-white/5 relative overflow-hidden" id="consultation-form" onsubmit="event.preventDefault(); alert('Terima kasih. Permohonan konsultasi Anda telah diterima. Tim prinsipal kami akan menghubungi via WhatsApp dalam kurun waktu 1x24 jam.');">
+<!-- Subtle corner glow accent -->
+<div class="absolute -top-12 -right-12 w-32 h-32 bg-[#d97736]/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-center justify-between border-b border-outline-variant/30 pb-space-sm">
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Formulir Pengajuan Jadwal Diskusi</span>
+<span class="text-[10px] font-mono text-primary flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> SECURE TRANSMISSION
+</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant" for="nama">Nama Lengkap *</label>
+<input class="w-full bg-surface-container px-space-md py-space-sm text-body-md text-on-surface rounded-DEFAULT border border-white/5 focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" id="nama" placeholder="Contoh: Raden Wirasasmita" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant" for="wa">Nomor WhatsApp Aktif *</label>
+<input class="w-full bg-surface-container px-space-md py-space-sm text-body-md text-on-surface rounded-DEFAULT border border-white/5 focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" id="wa" placeholder="+62 812-xxxx-xxxx" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant" for="kategori">Kategori Proyek *</label>
+<select class="w-full bg-surface-container px-space-md py-space-sm text-body-md text-on-surface rounded-DEFAULT border border-white/5 focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" id="kategori" required="">
+<option value="">Pilih Kategori</option>
+<option value="residential">Hunian Privat &amp; Villa Mewah</option>
+<option value="commercial">Komersial, Kafe, &amp; Perkantoran</option>
+<option value="interior">Interior Bespoke &amp; Fit-Out</option>
+<option value="masterplan">Masterplan Kawasan &amp; Lanskap</option>
+<option value="build">Konstruksi Fisik (Design &amp; Build)</option>
+</select>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant" for="luas">Lokasi &amp; Estimasi Luas (m²)</label>
+<input class="w-full bg-surface-container px-space-md py-space-sm text-body-md text-on-surface rounded-DEFAULT border border-white/5 focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" id="luas" placeholder="Contoh: Bali, Luas Lahan 600m²" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant" for="pesan">Catatan Kebutuhan &amp; Preferensi Desain</label>
+<textarea class="w-full bg-surface-container px-space-md py-space-sm text-body-md text-on-surface rounded-DEFAULT border border-white/5 focus:outline-none focus:ring-1 focus:ring-primary shadow-sm resize-none" id="pesan" placeholder="Ceritakan konsep ruang yang Anda impikan, preferensi material, estimasi timeline, atau tautan referensi..." rows="4"></textarea>
+</div>
+<button class="w-full py-space-md bg-primary-container hover:bg-[#c66629] text-on-primary font-label-md text-label-md font-semibold tracking-[0.14em] uppercase rounded-DEFAULT transition-all duration-300 flex items-center justify-center gap-space-sm shadow-[0_4px_16px_rgba(217,119,54,0.3)] hover:shadow-[0_6px_24px_rgba(217,119,54,0.45)] group" type="submit">
+<span>Kirim Pengajuan Konsultasi</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">send</span>
+</button>
+</form>
+</div>
+<!-- Right Column: Interactive Map Component & Atelier Coordinates -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<!-- Map Canvas Card -->
+<div class="p-space-lg bg-surface-container-low rounded-DEFAULT flex flex-col gap-space-md shadow-md h-full border border-white/5">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">Koordinat GPS Studio</span>
+<span class="font-body-sm text-body-sm text-on-surface">Lat: -6.2792 | Long: 106.8201</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 bg-surface-container text-[10px] font-mono text-outline rounded-DEFAULT">JAKARTA ATELIER</span>
+<span class="material-symbols-outlined text-primary text-[24px]">pin_drop</span>
+</div>
+</div>
+<!-- Map View Trigger -->
+<div class="w-full flex-1 min-h-[360px] bg-cover bg-center rounded-DEFAULT relative overflow-hidden shadow-inner flex flex-col justify-end p-space-md group" data-location="Kemang Timur, Jakarta Selatan, Indonesia" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCkAphUNesx66H4PsggmqpAZI-DOLB1f3Zlb-dKsDcmRaPCw4wyNWCTD20X-Z7OBKSwJfKDROcwVDhT1W7YjwPrjT3du3XEJW_IHgiOcUJwq5ihCVNjbZqixQnSUQtFQ479LNoBySpKqoxvTvFLxQcdijs5kPUJ6l2GT33uRO0ETgTz8V2AsykM014Z9QkmECBZzkFQ2q06vTdZydAj8fYWfQM_u8pHlDOPZWR0Izs')">
+<!-- Subtle dark tone layer over map visual -->
+<div class="absolute inset-0 bg-surface-container-lowest/50 backdrop-blur-[1px] group-hover:bg-surface-container-lowest/40 transition-colors"></div>
+<!-- Top Studio Info Pill on Map -->
+<div class="absolute top-3 left-3 right-3 flex items-center justify-between z-10 pointer-events-none">
+<span class="px-2.5 py-1 bg-surface/90 backdrop-blur-md rounded-DEFAULT text-[11px] font-mono text-on-surface border border-white/10 flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+STUDIO TERBUKA UNTUK KUNJUNGAN
+</span>
+</div>
+<!-- Floating Location Pill on Map -->
+<div class="relative z-10 bg-surface/90 backdrop-blur-md p-space-md rounded-DEFAULT flex items-center justify-between gap-space-sm shadow-lg border border-white/10">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">PT Cipta Ruang Nusantara</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kemang Timur Atelier Studio</span>
+</div>
+<div class="w-3.5 h-3.5 rounded-full bg-primary ring-4 ring-primary/30"></div>
+</div>
+</div>
+<!-- Open in GMaps button -->
+<a class="w-full py-space-sm px-space-md bg-surface-container hover:bg-surface-variant text-on-surface font-label-md text-label-md uppercase tracking-wider rounded-DEFAULT transition-all flex items-center justify-center gap-space-xs shadow-sm group border border-white/5" href="https://maps.google.com/?q=-6.2792,106.8201" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-primary group-hover:scale-110 transition-transform">map</span>
+<span>Buka di Google Maps Navigasi</span>
+</a>
+<!-- Quick Studio Arrival Note -->
+<div class="pt-space-xs flex items-center justify-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-primary">local_parking</span>
+<p class="font-body-sm text-body-sm text-center">
+Tersedia parkir valet di area pelataran studio untuk kunjungan klien terjadwal.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant pt-space-xl pb-space-xl border-t border-outline-variant/20"><div class="w-full px-margin md:px-margin-tablet xl:px-margin-desktop"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-desktop pb-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-sm"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm font-medium tracking-widest text-on-surface uppercase">CIPTA RUANG</span><span class="font-label-sm text-label-sm tracking-[0.2em] text-on-surface-variant uppercase">ARSITEKTUR &amp; KONSTRUKSI</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm mt-space-xs">Atelier arsitektur dan konstruksi presisi tinggi. Mengartikulasikan materialitas, bentang struktural, dan ketenangan spasial dalam lanskap kepulauan Nusantara.</p><div class="flex items-center gap-2 mt-space-xs"><span class="px-2 py-0.5 bg-surface-container text-[10px] font-mono text-primary rounded-DEFAULT">IAI UTAMA</span><span class="px-2 py-0.5 bg-surface-container text-[10px] font-mono text-on-surface-variant rounded-DEFAULT">LPJK KELAS 1</span><span class="px-2 py-0.5 bg-surface-container text-[10px] font-mono text-on-surface-variant rounded-DEFAULT">ISO 9001:2015</span></div></div><div class="lg:col-span-4 flex flex-col gap-space-sm"><span class="font-label-sm text-label-sm tracking-[0.16em] uppercase text-on-surface font-semibold">Kantor &amp; Studio</span><div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md mt-space-xs"><div class="flex flex-col p-space-xs bg-surface-container-low rounded-DEFAULT border border-white/5"><span class="font-label-md text-label-md text-on-surface uppercase">Jakarta</span><span class="font-body-sm text-body-sm text-on-surface-variant">Senopati, Kemang</span><span class="text-[10px] text-primary mt-1 font-mono">HQ Studio</span></div><div class="flex flex-col p-space-xs bg-surface-container-low rounded-DEFAULT border border-white/5"><span class="font-label-md text-label-md text-on-surface uppercase">Bandung</span><span class="font-body-sm text-body-sm text-on-surface-variant">Dago Pakar Utara</span><span class="text-[10px] text-outline mt-1 font-mono">Material Lab</span></div><div class="flex flex-col p-space-xs bg-surface-container-low rounded-DEFAULT border border-white/5"><span class="font-label-md text-label-md text-on-surface uppercase">Bali</span><span class="font-body-sm text-body-sm text-on-surface-variant">Pererenan, Canggu</span><span class="text-[10px] text-outline mt-1 font-mono">Resort Unit</span></div></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-sm text-label-sm tracking-[0.16em] uppercase text-on-surface font-semibold">Eksplorasi</span><nav class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="beranda" href="#">Beranda</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="layanan" href="#">Layanan &amp; Keahlian</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="berita" href="#">Monograf &amp; Berita</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="kontak" href="#">Kontak Studio</a></nav></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-sm text-label-sm tracking-[0.16em] uppercase text-on-surface font-semibold">Jaringan</span><nav class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-1 group" href="#"><span class="group-hover:translate-x-0.5 transition-transform">Instagram Atelier</span></a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-1 group" href="#"><span class="group-hover:translate-x-0.5 transition-transform">LinkedIn Corp</span></a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-1 group" href="#"><span class="group-hover:translate-x-0.5 transition-transform">ArchDaily Archive</span></a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-1 group" href="#"><span class="group-hover:translate-x-0.5 transition-transform">Dokumentasi PDF</span></a></nav></div></div><div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm border-t border-outline-variant/15"><span class="font-label-sm text-label-sm text-on-surface-variant">© 2025 PT Cipta Ruang Nusantara. Hak cipta dilindungi undang-undang.</span><span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase font-mono text-[11px]">Presisi • Materialitas • Integritas</span></div></div></footer></body></html>
